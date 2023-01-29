@@ -9,3 +9,16 @@
     }
     return arr;
 }
+string[] SecondArray(string[] arr)
+{
+    string[] array = new string[arr.Length];
+    for (int i = 0, j=0; i < arr.Length; i++)
+    {
+    if(arr[i].Length <= 3)
+        {
+        array[j] = arr[i];
+        j++;
+        }
+    }
+    return array;
+}
