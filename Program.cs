@@ -27,3 +27,6 @@ void SwowArrey (string [] array){
         Console.Write($"{array[i]} ({i})"  + " ");
     }
 }
+string[] arr = Arrey();
+string[] array = SecondArray(arr);
+SwowArrey(array);
